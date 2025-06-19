@@ -23,6 +23,8 @@ services:
       DB_PASSWORD: testpass
     volumes:
       - ./app:/var/www/html
+    working_dir: /var/www/html
+    command: /bin/bash -c "composer install && php-fpm"
 
   nginx:
     image: nginx:latest
