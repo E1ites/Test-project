@@ -15,6 +15,7 @@
 
 ```bash
 git clone https://github.com/E1ites/Test-project
+cd Test-project
 ```
 
 ### 2. Запустите сборку и запуск контейнеров:
